@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nome Colorido</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Nome Colorido</h1>
+  <p class="sub">Digite e veja a magica</p>
+
+  <div class="input-row">
+    <input type="text" id="nome" placeholder="Seu nome..." maxlength="24">
+    <button class="btn-main" id="btnCores">Novas cores</button>
+  </div>
+
+  <div class="efeitos">
+    <button class="btn-ef ativo" id="ef-saltitar">Saltitar</button>
+    <button class="btn-ef" id="ef-onda">Onda</button>
+    <button class="btn-ef" id="ef-pulsar">Pulsar</button>
+    <button class="btn-ef" id="ef-shake">Tremer</button>
+    <button class="btn-ef" id="ef-arcoiris">Arco-iris</button>
+    <button class="btn-ef" id="ef-nenhum">Sem efeito</button>
+  </div>
+
+  <div id="resultado"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
